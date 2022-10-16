@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.header__container{
+    background-image: url('../src/banner-home.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center top;
+    height: 80vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    width: 170px;
+    margin: 2px 10px;
+}
+
+.navbar__hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguer__black-box{
+    width: 50px;
+    height: 10px;
+    margin: 4px 20px;
+    background-color: rgb(227, 227, 227)
+}
+
+.header__home{
+    margin: 6REM auto;
+}
+
+.header__bienvenida{
+    font-family: 'Michroma', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}

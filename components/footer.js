@@ -9,7 +9,8 @@ function footerComponent(target) {
 
         <div class="media">
             <div class="media__link">
-                <a href="#" class="media__p">Instagram <img src="./src/instagram-logo.png" class="media__p-logo"></a>
+                <a href="#" class="media__p">Instagram </a>
+                <img src="./src/instagram-logo.png" class="media__p-logo">
             </div>
 
             <div class="media__link">
@@ -18,7 +19,8 @@ function footerComponent(target) {
             </div>
 
             <div class="media__link">
-                <a href="#" class="media__p">GitHub <img src="./src/github-logo.png" class="media__p-logo"></a>                    
+                <a href="#" class="media__p">GitHub </a>                    
+                <img src="./src/github-logo.png" class="media__p-logo">
             </div>
         </div>
     </div>

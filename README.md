@@ -1,4 +1,11 @@
 # desafio-m4
 
+DONE: FOOTER
 
-TODO : FOOTER - HEADER - CONTACT
+TODO : 
+    Footer: correjir los logos a blancos
+            realizar el resposive
+ 
+ HEADER 
+ 
+ CONTACT
