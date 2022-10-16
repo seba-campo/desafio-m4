@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C;
+    height: 500px;
+}
+
+.footer__brand{
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    color:#DBDBDB;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: #DBDBDB;
+}
+
+/* visited link */
+a:visited {
+    color: #DBDBDB;
+}
+
+/* mouse over link */
+a:hover {
+    color: #DBDBDB;
+}
+
+/* selected link */
+a:active {
+    color: #DBDBDB;
+}
+
+.media{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 18px;
+}
+
+.media__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+}
+
+.media__p-logo{
+    margin: 0 5px;
+    /* padding-top: 3px; */
+    width: 30px
+}
