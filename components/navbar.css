@@ -62,8 +62,8 @@
 .navbar__menu-modal{
     display: none;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     /* cuando tiene display:flex */
     flex-direction: column;
     background: rgb(127,41,207);
@@ -74,11 +74,15 @@
     align-items: center;
 }
 
-.menu__close-btn a{
-    display: flex;
+.menu__close-btn{
+    width: 100vw;
+    position: absolute;
+    left: calc(100vw - 70px);
+    top: 15px;
+    color: black
+    font-family: 'Micrhoma', sans-serif;
+    font-size: 30px;
 
-    align-items: flex-start;
-    color: rgb(0,0,0);
 }
 
 .navbar__menu-modal-el{
@@ -89,7 +93,6 @@
     font-size: 27px;
     margin: 15 0;
 }
-
 
 .header__home{
     margin: 6REM auto;

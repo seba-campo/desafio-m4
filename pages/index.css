@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -6,5 +8,74 @@ body{
     margin: 0 auto;
 }
 
-/* Sección de experiencias */
+/* Sección de welcome */
 
+.about__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 3px;
+    background-color: rgb(116, 41, 186) ;
+    color: #e1dede;
+}
+
+.about__image{ 
+    width: 200px;
+}
+
+.about__welcome-text{
+    height: 300px;
+}
+
+.about__title{
+    margin-top: 0px;
+
+}
+
+
+
+/* SERVICES */
+
+.services__container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+
+.services__title h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.service-el__image-el{
+    width: 150px;
+}
+
+.services__list{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-el{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.service-el__title h3{
+    margin: 6px auto;
+}

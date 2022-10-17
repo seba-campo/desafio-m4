@@ -29,9 +29,9 @@ function navbarComponent(target) {
         </div>
 
         <div class="navbar__menu-modal">
-                <div class="menu__close-btn">
-                    <h2 class="">X</h2>
-                </div>
+
+                <h2 class="menu__close-btn">X</h2>
+                
                 <div class="navbar__menu-modal-el">
                     <a href="#">HOME</a>
                 </div>
@@ -44,7 +44,7 @@ function navbarComponent(target) {
                 <div class="navbar__menu-modal-el">
                     <a href="#">SOBRE MI</a>
                 </div>
-         </div>
+        </div>
 
 
         <div class="header__home">
@@ -60,12 +60,13 @@ function navbarComponent(target) {
     hamburguer.addEventListener('click', ()=>{
         modalMenu.setAttribute('style', 'display: flex');
         console.log("clicked hamb")
-    })
+    });
 
     const closeButton = document.querySelector('.menu__close-btn');
     closeButton.addEventListener('click', ()=>{
         modalMenu.setAttribute('style', 'display: none');
     })
+
 
 };
 
