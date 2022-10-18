@@ -59,13 +59,13 @@ function navbarComponent(target) {
 
     hamburguer.addEventListener('click', ()=>{
         modalMenu.setAttribute('style', 'display: flex');
-        console.log("clicked hamb")
+        console.log("clicked hamb");
     });
 
     const closeButton = document.querySelector('.menu__close-btn');
-    closeButton.addEventListener('click', ()=>{
+    closeButton.addEventListener('click', () => {
         modalMenu.setAttribute('style', 'display: none');
-    })
+    });
 
 
 };

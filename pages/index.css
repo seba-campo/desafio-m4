@@ -8,32 +8,63 @@ body{
     margin: 0 auto;
 }
 
-/* Sección de welcome */
-
+/* Sección de about */
 .about__container{
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     align-items: center;
-    height: 600px;
+    width: 100vw;
+    /* height: 60vh; */
     font-family: 'Poppins', sans-serif;
     padding: 0 3px;
     background-color: rgb(116, 41, 186) ;
     color: #e1dede;
 }
 
+@media(min-width: 769px){
+    .about__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 60vh;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 3px;
+        background-color: rgb(116, 41, 186) ;
+        color: #e1dede;
+    }
+}
+
 .about__image{ 
     width: 200px;
+    margin: 15px 50px 20px 50px;;
+}
+@media (min-width: 769px){
+    .about__image{ 
+        width: 200px;
+        margin: 50px;
+    }
 }
 
 .about__welcome-text{
-    height: 300px;
+    margin: 40px 50px 0px 50px;
+    text-align: center;
+    vertical-align: center;
+    /* height: 300px; */
+}
+@media (min-width: 769px){
+    .about__welcome-text{
+        margin: 0 50px;
+        vertical-align: center;
+        /* height: 300px; */
+    }
 }
 
 .about__title{
     margin-top: 0px;
-
 }
-
 
 
 /* SERVICES */
@@ -45,37 +76,4 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
-}
-
-
-.services__title h2{
-    font-size: 35px;
-    text-align: center;
-    margin: 15px 0 15px 0;
-}
-
-.service-el__image-el{
-    width: 150px;
-}
-
-.services__list{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.service-el{
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10px 0px;
-    text-align: center;
-}
-
-.service-el__title h3{
-    margin: 6px auto;
 }
