@@ -13,11 +13,12 @@
 - Servicios.html ✔️ a3926ef 
 - Contact.html ✔️ a3926ef 
 - Correjir links del menú modal mobile / desk ✔️ a3926ef
+- Funcionalidad del formulario ✔️
 
 **TODO**
 
 - Revisar endpoint de asset, para configurar las fotos a un tamaño predefinido.
 - Hacer blur en fondo header/home
 - Logo (rehacer) y foto about.
-- Funcionalidad del formulario
+- Hacer el display del success contact
 - Hacer los header multibackground.
