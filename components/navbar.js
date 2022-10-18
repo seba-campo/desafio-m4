@@ -1,10 +1,10 @@
-function navbarComponent(target) {
+function navbarComponent(target, headerText) {
     const containerEl = document.createElement('div');
     
     containerEl.innerHTML = `
     <div class="header__container">
         <div class="navbar">
-            <a href="#"><img class="navbar__logo" src="./src/brand-logo.png"></a>
+            <a href="./index.html"><img class="navbar__logo" src="./src/brand-logo.png"></a>
             
             <div class="navbar__hamburger">
                 <div class="hamburguer__black-box"></div>
@@ -14,16 +14,16 @@ function navbarComponent(target) {
 
             <div class="navbar__menu-desk">
                 <div class="navbar__menu-el">
-                    <a href="#">home</a>
+                    <a href="./index.html">Home</a>
                 </div>
                 <div class="navbar__menu-el">
-                    <a href="#">contacto</a>
+                    <a href="./contact.html">Contacto</a>
                 </div>
                 <div class="navbar__menu-el">
-                    <a href="#">experiencias</a>
+                    <a href="./services.html">Servicios</a>
                 </div>
                 <div class="navbar__menu-el">
-                    <a href="#">sobre mi</a>
+                    <a href="./portfolio.html">sobre mi</a>
                 </div>
             </div>
         </div>
@@ -33,22 +33,22 @@ function navbarComponent(target) {
                 <h2 class="menu__close-btn">X</h2>
                 
                 <div class="navbar__menu-modal-el">
-                    <a href="#">HOME</a>
+                    <a href="./index.html">HOME</a>
                 </div>
                 <div class="navbar__menu-modal-el">
-                    <a href="#">CONTACTO</a>
+                    <a href="./contact.html">CONTACTO</a>
                 </div>
                 <div class="navbar__menu-modal-el">
-                    <a href="#">EXPERIENCIAS</a>
+                    <a href="./services.html">SERVICIOS</a>
                 </div>
                 <div class="navbar__menu-modal-el">
-                    <a href="#">SOBRE MI</a>
+                    <a href="./portfolio.html">SOBRE MI</a>
                 </div>
         </div>
 
 
         <div class="header__home">
-            <h1 class="header__bienvenida">Hola <br> soy Seba</h1>
+            <h1 class="header__bienvenida">${headerText}</h1>
         </div>
     </div>
     `
