@@ -1,8 +1,6 @@
 function navbarComponent(target, headerText, flagBckg) {
     const containerEl = document.createElement('div');
 
-
-    
     containerEl.innerHTML = `
     <div class="header__container">
         <div class="navbar">
@@ -70,7 +68,9 @@ function navbarComponent(target, headerText, flagBckg) {
         modalMenu.setAttribute('style', 'display: none');
     });
 
-    /* Se agregó el flag para que cuando se desee, se quite la foto, y el navbar
+    /* a3926ef
+
+       Se agregó el flag para que cuando se desee, se quite la foto, y el navbar
        sea de un alto de 15vh.
 
        Por defecto queda el background-image del home.
