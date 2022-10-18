@@ -1,5 +1,7 @@
-function navbarComponent(target, headerText) {
+function navbarComponent(target, headerText, flagBckg) {
     const containerEl = document.createElement('div');
+
+
     
     containerEl.innerHTML = `
     <div class="header__container">
@@ -54,6 +56,7 @@ function navbarComponent(target, headerText) {
     `
     target.appendChild(containerEl);
 
+
     const hamburguer = document.querySelector('.navbar__hamburger');
     const modalMenu  = document.querySelector('.navbar__menu-modal');
 
@@ -67,6 +70,19 @@ function navbarComponent(target, headerText) {
         modalMenu.setAttribute('style', 'display: none');
     });
 
+    /* Se agregó el flag para que cuando se desee, se quite la foto, y el navbar
+       sea de un alto de 15vh.
+
+       Por defecto queda el background-image del home.
+    */
+
+    if(!flagBckg){
+        const backgroundContainer = document.querySelector('.header__container');
+        backgroundContainer.setAttribute('style', `height: 15vh; background-image: none; background-color: #2C2C2C`);
+
+        const headerBienvenida = document.querySelector('.header__home');
+        headerBienvenida.setAttribute('style', 'display: none')
+    }
 
 };
 

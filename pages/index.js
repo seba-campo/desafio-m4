@@ -8,7 +8,7 @@ async function main() {
     
     footerComponent(footerSection);
     contactComponent(contactSection);
-    navbarComponent(headerSection, welcomeText);
+    navbarComponent(headerSection, welcomeText, true);
     serviceComponent(servicesSection);
 }
 

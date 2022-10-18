@@ -7,7 +7,7 @@ function main(){
 
     footerComponent(footerSection);
     contactComponent(contactSection);
-    navbarComponent(headerSection, "Contacto");
+    navbarComponent(headerSection, "Contacto", false);
     // serviceComponent(servicesSection);
 }
 
