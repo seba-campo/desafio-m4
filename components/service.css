@@ -44,3 +44,9 @@
 .service-el__image-el{
     width: 250px;
 }
+
+.service-el__link a{
+    font-size: 23px;
+    color: rgb(255, 172, 19);
+    font-weight: 600;
+}

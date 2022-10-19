@@ -5,6 +5,8 @@ async function serviceComponent(target, contentType) {
         return res.json();
     }).then((data) => {
 
+        // console.log(data);
+
         for (let r of data.items) {
             const entryTitle = r.fields.title;
             // console.log(serviceTitle);
@@ -13,6 +15,8 @@ async function serviceComponent(target, contentType) {
             // console.log(serviceDesc);
 
             const entryImgId = r.fields.thumbnail.sys.id;
+
+            const entryUrl = r.fields.url;
 
             for (let a of data.includes.Asset) {
                 const thumbId = a.sys.id;
@@ -34,6 +38,10 @@ async function serviceComponent(target, contentType) {
                         <div class="service-el__desc">
                             <p>${entryDesc}</p>
                         </div>
+                        <div class="service-el__link">
+                            <a href="${entryUrl}" target="_blank">${entryUrl}</a>
+                        </div>
+                        
                     </div>
                     `
                     target.appendChild(containerEl);
