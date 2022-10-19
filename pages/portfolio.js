@@ -1,18 +1,19 @@
-function main(){
+function main() {
     const footerSection = document.querySelector(".footer");
+    // const contactSection = document.querySelector(".contact");
     const headerSection = document.querySelector(".header");
     const servicesSection = document.querySelector(".services__list");
     
-    const contentType = "desafom4";
+    const contentType = "portfolio";
 
     footerComponent(footerSection);
-    navbarComponent(headerSection, "Services", false);
+    // contactComponent(contactSection);
+    navbarComponent(headerSection, "Portfolio", false);
     serviceComponent(servicesSection, contentType);
 
     const titleEl = document.querySelector('.services__h2');
 
-    titleEl.textContent = "Mis servicios"
-
+    titleEl.textContent = "Mi portfolio";
 }
 
 main();

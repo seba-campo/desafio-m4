@@ -17,13 +17,13 @@ function navbarComponent(target, headerText, flagBckg) {
                     <a href="./index.html">Home</a>
                 </div>
                 <div class="navbar__menu-el">
+                <a href="./services.html">Servicios</a>
+                </div>
+                <div class="navbar__menu-el">
+                <a href="./portfolio.html">Portfolio</a>
+                </div>
+                <div class="navbar__menu-el">
                     <a href="./contact.html">Contacto</a>
-                </div>
-                <div class="navbar__menu-el">
-                    <a href="./services.html">Servicios</a>
-                </div>
-                <div class="navbar__menu-el">
-                    <a href="./portfolio.html">sobre mi</a>
                 </div>
             </div>
         </div>
@@ -36,13 +36,13 @@ function navbarComponent(target, headerText, flagBckg) {
                     <a href="./index.html">HOME</a>
                 </div>
                 <div class="navbar__menu-modal-el">
+                <a href="./services.html">SERVICIOS</a>
+                </div>
+                <div class="navbar__menu-modal-el">
+                <a href="./portfolio.html">PORTFOLIO</a>
+                </div>
+                <div class="navbar__menu-modal-el">
                     <a href="./contact.html">CONTACTO</a>
-                </div>
-                <div class="navbar__menu-modal-el">
-                    <a href="./services.html">SERVICIOS</a>
-                </div>
-                <div class="navbar__menu-modal-el">
-                    <a href="./portfolio.html">SOBRE MI</a>
                 </div>
         </div>
 

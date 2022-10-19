@@ -5,11 +5,12 @@ async function main() {
     const servicesSection = document.querySelector(".services__list");
 
     const welcomeText = `Hola <br> soy Seba`;
-    
-    footerComponent(footerSection);
-    contactComponent(contactSection);
+    const contentType = "desafom4";
+
     navbarComponent(headerSection, welcomeText, true);
-    serviceComponent(servicesSection);
+    serviceComponent(servicesSection, contentType);
+    contactComponent(contactSection);
+    footerComponent(footerSection);
 }
 
 main();

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 .header__container{
-    background-image: url('../src/banner-home.jpg');
+    background-image: url('../src/banner-home.png');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
