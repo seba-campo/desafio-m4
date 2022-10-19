@@ -93,7 +93,7 @@
 
 .success-div__text-container{
     width: 70vw;
-    height: 35px;
+    /* height: 35px; */
     background-color: #4BB543;
     /* border: 0px; */
     border-radius: 3px;
@@ -106,13 +106,13 @@
 @media (min-width: 769px){
     .success-div__text-container{
         width: 40vw;        
-        height: 35px;
+        /* height: 35px; */
         /* background-color: green; */
     }
 }
 
 .success__text{
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 

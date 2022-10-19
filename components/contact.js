@@ -26,7 +26,7 @@ function contactComponent(target) {
 
             <div class="contact__success-div">
                 <div class="success-div__text-container">
-                    <p class="success__text"><i class="fa-solid fa-rocket"></i> ENVIADO CORRECTAMENTE</p>
+                    <p class="success__text"><i class="fa-solid fa-rocket"></i> Enviado correctamente <br> En unos minutos te llegará un correo</p>
                 </div>
             </div>
         </form>
@@ -72,7 +72,7 @@ async function submitMsg(mail, msg){
                 
                 setTimeout(() => {
                     msgSuccess.setAttribute('style', 'display: none');
-                  }, "7000")
+                  }, "15000")
             }
         })
 }
