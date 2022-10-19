@@ -23,7 +23,15 @@ function contactComponent(target) {
             </label>
 
             <button class="contact__send-button">Enviar</button>
+
+            <div class="contact__success-div">
+                <div class="success-div__text-container">
+                    <p class="success__text"><i class="fa-solid fa-rocket"></i> ENVIADO CORRECTAMENTE</p>
+                </div>
+            </div>
         </form>
+
+        
 
     </div>
     `;
@@ -56,9 +64,15 @@ async function submitMsg(mail, msg){
         }).then((res) => {
            return res.json();
         }).then((res)=>{
-            if(res.ok == true){
+            if(res.ok){
                 console.log("Submit correcto");
-                // Hacer logica de success button
+                
+                const msgSuccess = document.querySelector('.contact__success-div');
+                msgSuccess.setAttribute('style', 'display: inherit');
+                
+                setTimeout(() => {
+                    msgSuccess.setAttribute('style', 'display: none');
+                  }, "7000")
             }
         })
 }

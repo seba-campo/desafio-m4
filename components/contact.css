@@ -85,3 +85,34 @@
         font-size: 18px;
     }
 }
+
+.contact__success-div{
+    margin: 5px 0px;
+    display: none;
+}
+
+.success-div__text-container{
+    width: 70vw;
+    height: 35px;
+    background-color: #4BB543;
+    /* border: 0px; */
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 769px){
+    .success-div__text-container{
+        width: 40vw;        
+        height: 35px;
+        /* background-color: green; */
+    }
+}
+
+.success__text{
+    margin: 0 auto;
+}
+
+

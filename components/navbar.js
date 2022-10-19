@@ -46,6 +46,7 @@ function navbarComponent(target, headerText, flagBckg) {
                 </div>
         </div>
 
+        <hr class="header__hr">
 
         <div class="header__home">
             <h1 class="header__bienvenida">${headerText}</h1>

@@ -16,11 +16,8 @@
 - Funcionalidad del formulario ✔️
 - Corregido footer, ahora los elementos linkean en _blank ✔️
 - Services y Portfolio traen diferentes media desde el componente ✔️
+- Hacer el display del success contact ✔️
 
 **TODO**
 
 - ~~ Revisar endpoint de asset, para configurar las fotos a un tamaño predefinido.~~
-- ~~ Hacer blur en fondo header/home ~~ 
-- Logo (rehacer) y foto about.
-- Hacer el display del success contact
-- Hacer los header multibackground.

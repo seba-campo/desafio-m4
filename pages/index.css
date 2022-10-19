@@ -18,7 +18,7 @@ body{
     /* height: 60vh; */
     font-family: 'Poppins', sans-serif;
     padding: 0 3px;
-    background-color: rgb(116, 41, 186) ;
+    background-color: rgb(104, 66, 141) ;
     color: #e1dede;
 }
 
@@ -32,14 +32,14 @@ body{
         height: 60vh;
         font-family: 'Poppins', sans-serif;
         padding: 0 3px;
-        background-color: rgb(116, 41, 186) ;
+        /* background-color: rgb(89, 31, 143) ; */
         color: #e1dede;
     }
 }
 
 .about__image{ 
     width: 200px;
-    margin: 15px 50px 20px 50px;;
+    margin: 15px 50px 40px 50px;;
 }
 @media (min-width: 769px){
     .about__image{ 
