@@ -26,6 +26,7 @@ async function serviceComponent(target, contentType) {
                     const thumbUrl = a.fields.file.url;
 
                     const containerEl = document.createElement('div');
+                    containerEl.setAttribute('class', 'service-el-div');
     
                     containerEl.innerHTML = `
                     <div class="service-el">
